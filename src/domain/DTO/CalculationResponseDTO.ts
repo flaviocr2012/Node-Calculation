@@ -1,11 +1,14 @@
+import { Fee } from "./Fee";
+import { Pmt } from "./Pmt";
+import { Tax } from "./Tax";
 
 export class CalculationResponseDTO {
 
-  tax: number;
+  tax: Tax;
 
-  fee: number
+  fee: Fee;
 
-  pmt: number;
+  pmt: Pmt;
 
-  
+
 }
